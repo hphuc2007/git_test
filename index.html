@@ -1,0 +1,516 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<body>
+
+   
+<!--navbar-->
+    <div class="header">
+        <a href=""><i class="fa-solid fa-list"></i></a>
+        <a class="logo" href="#">
+            <img src="./img/logo.png" width="120px" alt="logo" />
+        </a>
+        
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a target="_blank" href="./login.html">Sign in</a></li>
+        </ul>
+    </div>
+    <!--navbar end-->
+
+    <!--carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 4"></button>
+
+        </div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="./img/1.jpg" alt="Los Angeles" width="30%">
+    </div>
+
+    <div class="item">
+      <img src="./img/2.jpeg" alt="Chicago" width="30%" >
+    </div>
+
+    <div class="item">
+      <img src="./img/3.jpg" alt="New York" width="30%" >
+    </div>
+
+    <div class="item">
+      <img src="./img/4.jpg" alt="New York" width="30%" >
+    </div>
+  </div>
+
+
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--carousel end-->
+
+<!--bestseller section-->
+<section class="bestseller">
+  <h1 class="head">Our best seller</h1>
+<div class="products">
+
+
+  <div class="card">
+    <div class="card1">
+      <div class="img"><img src="./img/mochi/mangomochi.jpg" alt=""></div>
+      <div class="desc">Mochi</div>
+      <div class="title">Mango Mochi</div>
+      <div class="box">
+        <div class="price">$2.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div> 
+    
+  <div class="card">
+    <div class="card2">
+      <div class="img"><img src="./img/bread/barguette.jpg" alt=""></div>
+      <div class="desc">Bread</div>
+      <div class="title">Barguette</div>
+      <div class="box">
+        <div class="price">$3</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>  
+
+
+  <div class="card">
+    <div class="card3">
+      <div class="img"><img src="./img/macaron/macaron.jpg" alt=""></div>
+      <div class="desc">Macaron</div>
+      <div class="title">Traditional Macaron</div>
+      <div class="box">
+        <div class="price">$2</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card4">
+      <div class="img"><img src="./img/mochi/taromochi.jpg" alt=""></div>
+      <div class="desc">Mochi</div>
+      <div class="title">Taro mochi</div>
+      <div class="box">
+        <div class="price">$20.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card5">
+      <div class="img"><img src="./img/pie/keylimepie.jpg" alt=""></div>
+      <div class="desc">Pie</div>
+      <div class="title">Key Lime Pie</div>
+      <div class="box">
+        <div class="price">$20.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card6">
+      <div class="img"><img src="./img/pie/pumpkinpie.jpg" alt=""></div>
+      <div class="desc">Pie</div>
+      <div class="title">Pumpkin Pie</div>
+      <div class="box">
+        <div class="price">$20.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!--best seller section-end-->
+
+
+<!--mochi section-->
+<section class="mochi">
+  <h1 class="head">Mochi</h1>
+<div class="products">
+
+
+  <div class="card">
+    <div class="card1">
+      <div class="img"><img src="./img/mochi/mochi.webp" alt=""></div>
+      <div class="desc">Mochi</div>
+      <div class="title">Mochi</div>
+      <div class="box">
+        <div class="price">$2.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="card">
+    <div class="card2">
+      <div class="img"><img src="./img/mochi/matchamochi.jpg" alt=""></div>
+      <div class="desc">Mochi</div>
+      <div class="title">Matcha mochi</div>
+      <div class="box">
+        <div class="price">$3</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div> 
+  
+  <div class="card">
+    <div class="card3">
+      <div class="img"><img src="./img/mochi/taromochi.jpg" alt=""></div>
+      <div class="desc">Mochi</div>
+      <div class="title">Taro mochi</div>
+      <div class="box">
+        <div class="price">$3</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card4">
+      <div class="img"><img src="./img/mochi/sakuramochi.jpg" alt=""></div>
+      <div class="desc">Mochi</div>
+      <div class="title">Sakura mochi</div>
+      <div class="box">
+        <div class="price">$3</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card5">
+      <div class="img"><img src="./img/mochi/mangomochi.jpg" alt=""></div>
+      <div class="desc">Mochi</div>
+      <div class="title">Mango mochi</div>
+      <div class="box">
+        <div class="price">$3</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card6">
+      <div class="img"><img src="./img/mochi/strawberrymochi.jpg" alt=""></div>
+      <div class="desc">Mochi</div>
+      <div class="title">Strawberry mochi</div>
+      <div class="box">
+        <div class="price">$3</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!--mochi section-end-->
+
+<!--macaron section-->
+<section class="macaron">
+  <h1 class="head">Macaron</h1>
+<div class="products">
+
+
+  <div class="card">
+    <div class="card1">
+      <div class="img"><img src="./img/macaron/almondmacaron.jpg" alt=""></div>
+      <div class="desc">Macaron</div>
+      <div class="title">Almond macaron</div>
+      <div class="box">
+        <div class="price">$2.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="card">
+    <div class="card2">
+      <div class="img"><img src="./img/macaron/blueberrymacaron.jpg" alt=""></div>
+      <div class="desc">Macaron</div>
+      <div class="title">Blueberry macaron</div>
+      <div class="box">
+        <div class="price">$3</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>  
+
+
+  <div class="card">
+    <div class="card3">
+      <div class="img"><img src="./img/macaron/macaron.jpg" alt=""></div>
+      <div class="desc">Macaron</div>
+      <div class="title">Traditional Macaron</div>
+      <div class="box">
+        <div class="price">$2</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card4">
+      <div class="img"><img src="./img/macaron/coconutmacaron.jpg" alt=""></div>
+      <div class="desc">Macaron</div>
+      <div class="title">Coconut macaron</div>
+      <div class="box">
+        <div class="price">$2.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card5">
+      <div class="img"><img src="./img/macaron/mintmacaron.jpg" alt=""></div>
+      <div class="desc">Macaron</div>
+      <div class="title">Mint macaron</div>
+      <div class="box">
+        <div class="price">$2.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card6">
+      <div class="img"><img src="./img/macaron/peachmacaron.jpg" alt=""></div>
+      <div class="desc">Macaron</div>
+      <div class="title">Peach macaron</div>
+      <div class="box">
+        <div class="price">$2.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card7">
+      <div class="img"><img src="./img/macaron/lavendermacaron.jpg" alt=""></div>
+      <div class="desc">Macaron</div>
+      <div class="title">Lavender macaron</div>
+      <div class="box">
+        <div class="price">$2.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card8">
+      <div class="img"><img src="./img/macaron/saltedmacaron.jpg" alt=""></div>
+      <div class="desc">Macaron</div>
+      <div class="title">Salted macaron</div>
+      <div class="box">
+        <div class="price">$2.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card9">
+      <div class="img"><img src="./img/macaron/vanillamacaron.jpg" alt=""></div>
+      <div class="desc">Macaron</div>
+      <div class="title">Vanilla macaron</div>
+      <div class="box">
+        <div class="price">$2.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card10">
+      <div class="img"><img src="./img/macaron/lemonmacaron.webp" alt=""></div>
+      <div class="desc">Macaron</div>
+      <div class="title">Lemon macaron</div>
+      <div class="box">
+        <div class="price">$2.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+</section>
+<!--macaron section-end-->
+
+<!--pie section-->
+<section class="pie">
+  <h1 class="head">Pie</h1>
+<div class="products">
+
+
+  <div class="card">
+    <div class="card1">
+      <div class="img"><img src="./img/pie/applepie.jpeg" alt=""></div>
+      <div class="desc">Pie</div>
+      <div class="title">Apple Pie</div>
+      <div class="box">
+        <div class="price">$20.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="card">
+    <div class="card2">
+      <div class="img"><img src="./img/pie/blueberry pie.jpg" alt=""></div>
+      <div class="desc">Pie</div>
+      <div class="title">Blueberry Pie</div>
+      <div class="box">
+        <div class="price">$30</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>  
+
+
+  <div class="card">
+    <div class="card3">
+      <div class="img"><img src="./img/pie/cherrypie.jpg" alt=""></div>
+      <div class="desc">Pie</div>
+      <div class="title">CHerry Pie</div>
+      <div class="box">
+        <div class="price">$20</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card4">
+      <div class="img"><img src="./img/pie/keylimepie.jpg" alt=""></div>
+      <div class="desc">Pie</div>
+      <div class="title">Key Lime Pie</div>
+      <div class="box">
+        <div class="price">$30.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card5">
+      <div class="img"><img src="./img/pie/peacanpie.jpg" alt=""></div>
+      <div class="desc">Pie</div>
+      <div class="title">Peacan Pie</div>
+      <div class="box">
+        <div class="price">$20.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card6">
+      <div class="img"><img src="./img/pie/peachpie.jpg" alt=""></div>
+      <div class="desc">Pie</div>
+      <div class="title">Peach Pie</div>
+      <div class="box">
+        <div class="price">$25.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card7">
+      <div class="img"><img src="./img/pie/pumpkinpie.jpg" alt=""></div>
+      <div class="desc">Pie</div>
+      <div class="title">Pumpkin Pie</div>
+      <div class="box">
+        <div class="price">$28.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card8">
+      <div class="img"><img src="./img/Pie/rhubarbpie.jpeg" alt=""></div>
+      <div class="desc">Pie</div>
+      <div class="title">Rhubarb Pie</div>
+      <div class="box">
+        <div class="price">$39.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card9">
+      <div class="img"><img src="./img/pie/strawberrypie.jpg" alt=""></div>
+      <div class="desc">Pie</div>
+      <div class="title">Strawberry Pie</div>
+      <div class="box">
+        <div class="price">$28.5</div>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!--pie section-end-->
+
+<section class="footer">
+  <div class="intro">
+    <h1 class="search">Search what you need!</h1>
+    <input type="text" placeholder="Search keyword"> 
+  </div>
+</section>
+
+<div class="copyright">
+  <p class="copyrights">Bản quyền ©1995-2023 HP bảo lưu mọi quyền.</p>
+  <p>Công ty TNHH HP</p>
+  <p>Giấy CNĐT: 11111111111, do UBND TP HCM cấp ngày 28/8/20023</p>
+  <p>Địa chỉ: 83/35A, Vườn Lài, Phường Phú Thọ Hòa, Quận Tân Phú, TP.HCM</p>
+  <p>Điện thoại: 0777505040</p>
+</div>
+   
+</body>
+</html>
+
+
